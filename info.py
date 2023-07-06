@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'jaadugar_search')
 API_ID = int(environ.get('API_ID', '20077906'))
 API_HASH = environ.get('API_HASH', 'da36369fbe92c05fd924331af2615e73')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5805393119:AAHdDqo4WwWa5U8Nk2K7JGLMRqGbbBNiloQ')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6375241705:AAGs2eD6kQfvPpI-NSLyCE4TPtvCRQ6fukw')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
