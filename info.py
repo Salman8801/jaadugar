@@ -22,7 +22,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/9fbe2a63b776d80c07e65.jpg https://te.legra.ph/file/690672fb493e37d1dcc54.jpg https://te.legra.ph/file/86b14d255350fa1c73d3c.jpg https://te.legra.ph/file/63d47a5f4bd65c3d7e7e0.jpg https://te.legra.ph/file/759d044c7f49aadd6d602.jpg https://te.legra.ph/file/9b52c615e82843fabc5b3.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/73cfca6a1233da3b82b21.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
@@ -48,11 +48,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
-VERIFY2_URL = environ.get('VERIFY2_URL', "OmegaLinks.in")
-VERIFY2_API = environ.get('VERIFY2_API', "d4411ef88597420cd16fd0a9611a339af221560c")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OmegaLinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd4411ef88597420cd16fd0a9611a339af221560c')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Moviesbank_Corporation/101")
+VERIFY2_URL = environ.get('VERIFY2_URL', "Ziplinker.net")
+VERIFY2_API = environ.get('VERIFY2_API', "25371d209e7dd116bbf42a90b8e9c70b558be7c1")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Ziplinker.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '25371d209e7dd116bbf42a90b8e9c70b558be7c1')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
